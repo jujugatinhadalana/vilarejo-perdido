@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(252, 252, 166);
+    color: rgb(133, 131, 55);
+    font-family: "Sour Gummy", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #c3a6df;
+    color: rgb(42, 14, 53);
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
